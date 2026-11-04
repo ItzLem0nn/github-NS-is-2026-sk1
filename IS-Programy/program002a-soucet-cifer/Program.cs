@@ -40,3 +40,9 @@ while (!int.TryParse(Console.ReadLine(), out number))
 int numberBackup = number; //záloha zadaného čísla
 int sum = 0; //neutrální hodnota pro součet cifer (pro násobení by to byla 1)
 int digit; //pomocná proměnná pro uložení poslední cifry zadaného čísla
+
+//ošetření záporného čísla - převod na kladné číslo
+if (number < 0)
+{
+    number = -number; //převedení záporného čísla na kladné
+}
