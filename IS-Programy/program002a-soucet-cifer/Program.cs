@@ -26,3 +26,17 @@ while (!int.TryParse(Console.ReadLine(), out number))
     Console.Write("Nezadali jste celé číslo. Zadejte celé číslo znovu: ");
 }
 
+
+ //rekapitulace zadaných hodnot
+    Console.WriteLine();
+    Console.WriteLine ("===============================");
+    Console.WriteLine($"Zadané číslo: {number}");
+    Console.WriteLine("===============================");
+    Console.WriteLine();
+
+//Konkrétní algoritmus - součet cifer zadaného čísla
+
+//Příprava pomovných proměnných pro výpočet součtu cifer
+int numberBackup = number; //záloha zadaného čísla
+int sum = 0; //neutrální hodnota pro součet cifer (pro násobení by to byla 1)
+int digit; //pomocná proměnná pro uložení poslední cifry zadaného čísla
