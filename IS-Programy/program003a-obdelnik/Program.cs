@@ -48,6 +48,16 @@ while (again.ToLower() == "a")
 //Vnější cyklus, který bude hlídat počet řádků (výšku)
 for(int i = 1; i <= height; i++)
     {
+        //obarvení každého řádku dvěmi barvami - liché řádky červené, sudé řádky modré
+        if (i % 2 == 0)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+        }
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+        }
+
         //vnitřní cyklus, který se postará, aby se v každém řádku vykreslil počet znaků podle zadané šířky
         for(int j = 1; j <= width; j++)
         {
@@ -56,6 +66,7 @@ for(int i = 1; i <= height; i++)
         }
         Console.WriteLine();
     }
+    Console.ResetColor(); // Obnovení výchozí barvy textu
 
 
     // Dotaz k uživateli na opakování
