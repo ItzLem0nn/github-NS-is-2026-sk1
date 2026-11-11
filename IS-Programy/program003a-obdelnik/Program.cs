@@ -46,9 +46,15 @@ while (again.ToLower() == "a")
 
 //Jádro vykreslovacího algoritmu
 //Vnější cyklus, který bude hlídat počet řádků (výšku)
-for(int i = 0; i <= height; i++)
+for(int i = 1; i <= height; i++)
     {
-        Console.WriteLine("* ");
+        //vnitřní cyklus, který se postará, aby se v každém řádku vykreslil počet znaků podle zadané šířky
+        for(int j = 1; j <= width; j++)
+        {
+        Console.Write("* ");
+        System.Threading.Thread.Sleep(System.TimeSpan.FromMilliseconds(100)); // Efekt animace vykreslování
+        }
+        Console.WriteLine();
     }
 
 
