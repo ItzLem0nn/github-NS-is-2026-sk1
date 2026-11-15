@@ -1,0 +1,15 @@
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\bin\Debug\net10.0\program003b-trojuhelnik.exe
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\bin\Debug\net10.0\program003b-trojuhelnik.deps.json
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\bin\Debug\net10.0\program003b-trojuhelnik.runtimeconfig.json
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\bin\Debug\net10.0\program003b-trojuhelnik.dll
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\bin\Debug\net10.0\program003b-trojuhelnik.pdb
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\obj\Debug\net10.0\program003b-trojuhelnik.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\obj\Debug\net10.0\program003b-trojuhelnik.AssemblyInfoInputs.cache
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\obj\Debug\net10.0\program003b-trojuhelnik.AssemblyInfo.cs
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\obj\Debug\net10.0\program003b-trojuhelnik.csproj.CoreCompileInputs.cache
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\obj\Debug\net10.0\program003b-trojuhelnik.sourcelink.json
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\obj\Debug\net10.0\program003b-trojuhelnik.dll
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\obj\Debug\net10.0\refint\program003b-trojuhelnik.dll
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\obj\Debug\net10.0\program003b-trojuhelnik.pdb
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\obj\Debug\net10.0\program003b-trojuhelnik.genruntimeconfig.cache
+C:\aaa\github-NS-is-2026-sk1\IS-Programy\program003b-trojuhelnik\obj\Debug\net10.0\ref\program003b-trojuhelnik.dll
