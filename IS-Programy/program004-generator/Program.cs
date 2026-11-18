@@ -53,25 +53,78 @@ while (again.ToLower() == "a")
     Random myRandNumb = new Random();
     //Random myRandNumb = new Random(50); - při opakovaném spuštění programu se vygenerují stejná čísla, protože je generátor inicializován stejným semínkem (seedem)
 
+    // Deklarace proměnných pro počítání kladných, záporných, sudých, lichých a nulových čísel
+    int positiveCount = 0;
+    int negativeCount = 0;
+    int evenCount = 0;
+    int oddCount = 0;
+    int zeroCount = 0;
+
     // Generování náhodných čísel a jejich uložení do pole
     Console.WriteLine("Vygenerovaná pseudonáhodná čísla:");
     for (int i = 0; i < myRandNumbs.Length; i++)
     {
         myRandNumbs[i] = myRandNumb.Next(LowerBound, UpperBound + 1);
         Console.Write($"{myRandNumbs[i]}; ");
+
+        /*if (myRandNumbs[i] > 0)
+        {
+            positiveCount++;
+        }
+        if (myRandNumbs[i] < 0)
+        {
+            negativeCount++;
+        }
+        if (myRandNumbs[i] % 2 == 0)
+        {
+            evenCount++;
+        }
+        if (myRandNumbs[i] % 2 != 0)
+        {
+            oddCount++;
+        }
+        if (myRandNumbs[i] == 0)
+        {
+            zeroCount++;
+        }*/
+
+        if(myRandNumbs[i]<0)
+        {
+            negativeCount++;
+        }
+        else if(myRandNumbs[i]>0)
+        {
+            positiveCount++;
+        }
+        else
+        {
+            zeroCount++;
+        }
+
+        if(myRandNumbs[i]%2==0)
+        {
+            evenCount++;
+        }
+        else
+        {
+            oddCount++;
+        }
+
+
     }
 
-    // Výpis vygenerovaných čísel
     Console.WriteLine();
     Console.WriteLine("===============================");
-    Console.WriteLine("Vygenerovaná čísla:");
+    Console.WriteLine($"Počet kladných čísel: {positiveCount}");
+    Console.WriteLine($"Počet záporných čísel: {negativeCount}");
+    Console.WriteLine($"Počet nul: {zeroCount}");
+    Console.WriteLine($"Počet sudých čísel: {evenCount}");
+    Console.WriteLine($"Počet lichých čísel: {oddCount}");
+    Console.WriteLine("===============================");
 
-    for (int i = 0; i < myRandNumbs.Length; i++)
-    {
-        Console.Write(myRandNumbs[i] + " ");
-    }
 
     // Dotaz k uživateli na opakování
+    Console.WriteLine();
     Console.WriteLine();
     Console.Write("Pro opakování programu stisknete klávesu A. Potvrďte klávesou Enter: ");
     again = Console.ReadLine() ?? "";

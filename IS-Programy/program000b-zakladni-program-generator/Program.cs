@@ -61,15 +61,6 @@ while (again.ToLower() == "a")
         Console.Write($"{myRandNumbs[i]}; ");
     }
 
-    // Výpis vygenerovaných čísel
-    Console.WriteLine();
-    Console.WriteLine("===============================");
-    Console.WriteLine("Vygenerovaná čísla:");
-
-    for (int i = 0; i < myRandNumbs.Length; i++)
-    {
-        Console.Write(myRandNumbs[i] + " ");
-    }
 
     // Dotaz k uživateli na opakování
     Console.WriteLine();
